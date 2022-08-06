@@ -1,8 +1,9 @@
-import GetImmat from "./Component/GetImmat/GetImmat";
+import Introduction from "./Component/Introduction/Introduction";
+
 
 function App() {
   return (
-    <GetImmat />
+    <Introduction />
   );
 }
 

@@ -21,9 +21,8 @@ class GetImmat extends React.Component {
   }
 
   render() {
-    console.log(this.state.inputValue);
     return (
-      <div>
+      <div className='GetImmatContainer'>
         <input
           style={{marginLeft: "20px", marginTop: 20}}
           className="GetImmat"
