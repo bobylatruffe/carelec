@@ -1,6 +1,8 @@
+import GetImmat from "./Component/GetImmat/GetImmat";
+
 function App() {
   return (
-    <h1>Carelec</h1>
+    <GetImmat />
   );
 }
 
