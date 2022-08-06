@@ -1,0 +1,58 @@
+.accrocheN-right, .accrocheN-left {
+  position: relative;
+  width: 1366px;
+  height: 768px;
+  margin: auto;
+
+  text-align: center;
+}
+
+.accrocheN-right .illustration-accroche {
+  position: relative;
+  top: 180px;
+  left: -300px;
+}
+
+.accrocheN-right p, .accrocheN-right h1 {
+  position: relative;
+  left: 700px;
+  top: -150px;
+  text-align: left;
+  width: 400px;
+}
+
+.accrocheN-right .bg-accroche {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.accrocheN-right .arrow {
+  position: relative;
+  left: -500px;
+}
+
+.accrocheN-left .illustration-accroche {
+  position: relative;
+  top: 180px;
+  left: 200px;
+}
+
+.accrocheN-left p, .accrocheN-left h1 {
+  position: relative;
+  left: 200px;
+  top: -150px;
+  text-align: right;
+  width: 400px;
+}
+
+.accrocheN-left .bg-accroche {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.accrocheN-left .arrow {
+  position: relative;
+  left: 500px;
+}

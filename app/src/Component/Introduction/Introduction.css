@@ -1,0 +1,44 @@
+.Introduction {
+  position: relative;
+  width: 1366px;
+  height: 600px;
+  margin: auto;
+
+}
+/* bon les .Introduction dans #xxxx ne sont pas néssaire mais je le met juste pour me rappeler que c'est une sous-section */
+.Introduction #accueilLeft {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+}
+
+.Introduction #accueilRight {
+  position: absolute;
+  right: 120px;
+  bottom: 0;
+}
+
+.Introduction .GetImmatContainer {
+  position: absolute;
+  top: 300px;
+  left: 525px;
+
+  z-index: 1;
+}
+
+.Introduction #arrowTextContainer {
+  position: absolute;
+  top: 125px;
+  left: 640px;
+}
+
+.Introduction #handwrite {
+  font-family: 'Caveat', cursive;
+  font-size: 18px;
+
+  position: relative;
+  left: 100px;
+  top: 50px;
+
+  z-index: 1;
+}
