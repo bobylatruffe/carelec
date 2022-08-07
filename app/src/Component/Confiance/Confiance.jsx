@@ -31,7 +31,7 @@ class Confiance extends React.Component {
     let max = this.state.max;
     let current = this.state.current;
 
-    if(current == 0) {
+    if(current === 0) {
       this.setState({current: max-1});
     } else {
       this.setState({current: --current});
@@ -42,7 +42,7 @@ class Confiance extends React.Component {
     let max = this.state.max;
     let current = this.state.current;
 
-    if(current == max-1) {
+    if(current === max-1) {
       this.setState({current: 0});
     } else {
       this.setState({current: ++current});

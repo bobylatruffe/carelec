@@ -1,0 +1,64 @@
+.menu {
+  position: relative;
+  height: 130px;
+  background-color: black;
+  line-height: 90px;
+  text-align: center;
+}
+
+.menu .menu-container {
+  position: relative;
+  width: 1070px;
+  margin: auto;
+}
+
+.menu .logo {
+  position: absolute;
+  left: 0px;
+  top: 15px;
+  font-weight: 900;
+  font-size: 36px;
+  font-style: italic;
+  text-transform: none;
+}
+
+.menu .compte {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  width: 25px;
+  height: 25px;
+
+  background-repeat: no-repeat;
+
+  background-image: url("../../img/compte.png");
+}
+
+.menu ul {
+  padding: 0px;
+  display: inline-block;
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  /* border: solid 1px blue; */
+}
+
+.menu ul li a {
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+
+  /* border: 1px solid green; */
+}
+
+.menu ul li a:hover {
+  font-weight: 900;
+}
