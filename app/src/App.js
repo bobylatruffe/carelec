@@ -16,7 +16,7 @@ function App() {
       <AccrocheN
         class="accrocheN-right"
         img={accrocheCanape}
-        titre="Entretenir ou faire réparer sa voiture, depuis son canapé !"
+        titre={["Entretenir ou faire réparer sa voiture, ", <span className="red">depuis son canapé !</span>]}
         contenu="Plus besoin de se déplacer, que vous soyez chez vous ou au bureau, on récupère votre voiture, et on vous laisse une de nos merveilleuse voiture de courtoisie..."
         bg={accrocheCanapeBg}
         arrow={arrowRight}
@@ -24,7 +24,7 @@ function App() {
       <AccrocheN
         class="accrocheN-left"
         img={accrocheSuivi}
-        titre="Plus aucune surprise, suivez en directe  ce qu’il se passe !"
+        titre={["Plus aucune surprise", <span className="red"><br/>suivez en directe  ce qu’il se passe !</span>]}
         contenu="Suivez à tout moment l’avancement de ce qu’il se passe sur votre véhicule, en jettant un coup d’oeil sur ce que le mécanicien est entrain de réaliser sur votre voiture depuis sa caméra... un peu comme si vous etiez avec lui."
         bg={accrocheSuiviBg}
         arrow={arrowLeft}
@@ -32,8 +32,8 @@ function App() {
       <AccrocheN
         class="accrocheN-right"
         img={accrocheDevis}
-        titre="Plus aucune surprise, suivez en directe  ce qu’il se passe !"
-        contenu="Suivez à tout moment l’avancement de ce qu’il se passe sur votre véhicule, en jettant un coup d’oeil sur ce que le mécanicien est entrain de réaliser sur votre voiture depuis sa caméra... un peu comme si vous etiez avec lui."
+        titre={["Voyez par vous-même qu’un devis, ", <span className="red">peut-être tellement clair ...</span>]}
+        contenu="Avant tout engagement, vous pourrez éditer un devis afin de contrôler que nous allons effectivement réaliser ce que vous souhaitez ... et pas une chose en plus !"
         bg={null}
       />
     </div>

@@ -1,5 +1,7 @@
 .GetImmat {
   position: relative;
+  margin-left: 20px;
+  margin-top: 20px;
   width: 200px;
   height: 40px;
   background-color: black;
