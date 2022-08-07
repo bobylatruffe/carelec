@@ -1,0 +1,45 @@
+.confiance {
+  position: relative;
+
+  width: 1366px;
+  height: 600px;
+  margin: auto;
+
+  text-align: center;
+}
+
+.confiance .bg-confiance {
+  margin-bottom: 100px;
+}
+
+.confiance .confiance-arrow-left {
+  position: absolute;
+  left: 150px;
+  top: 450px;
+}
+
+.confiance .confiance-arrow-left:hover, .confiance .confiance-arrow-right:hover{
+  cursor: pointer;
+}
+
+.confiance .confiance-arrow-right {
+  position: absolute;
+  right: 150px;
+  top: 450px;
+}
+
+.confiance p {
+  width: 600px;
+  margin: auto;
+}
+
+.confiance .confiance-quote-left {
+  position: relative;
+  left: -350px;
+}
+
+.confiance .confiance-quote-right {
+  position: absolute;
+  top: 500px;
+  right: 300px;
+}

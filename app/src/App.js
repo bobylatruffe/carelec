@@ -1,5 +1,6 @@
 import Introduction from "./Component/Introduction/Introduction";
 import AccrocheN from "./Component/Accoches/AccrocheN";
+import Confiance from "./Component/Confiance/Confiance";
 
 import accrocheCanape from "./img/accroche-canape.png";
 import accrocheCanapeBg from "./img/bg-accroche-canape.png";
@@ -24,7 +25,7 @@ function App() {
       <AccrocheN
         class="accrocheN-left"
         img={accrocheSuivi}
-        titre={["Plus aucune surprise", <span className="red"><br/>suivez en directe  ce qu’il se passe !</span>]}
+        titre={["Plus aucune surprise", <span className="red"><br />suivez en directe  ce qu’il se passe !</span>]}
         contenu="Suivez à tout moment l’avancement de ce qu’il se passe sur votre véhicule, en jettant un coup d’oeil sur ce que le mécanicien est entrain de réaliser sur votre voiture depuis sa caméra... un peu comme si vous etiez avec lui."
         bg={accrocheSuiviBg}
         arrow={arrowLeft}
@@ -36,6 +37,8 @@ function App() {
         contenu="Avant tout engagement, vous pourrez éditer un devis afin de contrôler que nous allons effectivement réaliser ce que vous souhaitez ... et pas une chose en plus !"
         bg={null}
       />
+
+      <Confiance />
     </div>
   );
 }
