@@ -1,0 +1,34 @@
+.notre-garage-container {
+  width: 1366px;
+  margin: auto;
+}
+
+.notre-garage-container .content-n {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(250, 250, 250);
+}
+
+.notre-garage-container .content-n .txt-left-container {
+  display: flex;
+  justify-content: center;
+  width: 683px;
+}
+
+.notre-garage-container .content-n .txt-left-container .txt-left {
+  width: 500px;
+  text-align: right;
+}
+
+.notre-garage-container .content-n .txt-right-container {
+  display: flex;
+  justify-content: center;
+  width: 683px;
+}
+
+.notre-garage-container .content-n .txt-right-container .txt-right {
+  width: 500px;
+  text-align: left;
+}
