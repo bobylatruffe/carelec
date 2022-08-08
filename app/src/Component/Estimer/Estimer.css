@@ -1,0 +1,28 @@
+#estimer {
+  position: relative;
+  width: 1366px;
+  margin: auto;
+
+  padding-top: 5%;
+  text-align: center;
+}
+
+#estimer #arrowTextContainer {
+  display: inline-block;
+  position: relative;
+  left: 25%;
+  top: 0px;
+  transform: rotate(35deg);
+}
+
+#estimer #arrowTextContainer p {
+  margin-left:  200px;
+}
+
+#estimer #description {
+  width: 450px;
+  margin: auto;
+
+  position: relative;
+  top: -170px
+}
