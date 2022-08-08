@@ -32,6 +32,12 @@ class Ccm extends React.Component {
           <p>Une fois que l'entretien de votre véhicule est terminé, notre mécanicien vous rapporte votre véhicule, un état des lieux est effectué et comparé avec la 1er. Si tout vous semble correct, alors vous pourrez réaliser le paiement de la prestation directement à notre mécanicien.</p>
         </div>
 
+        <div id="line-vertical"></div>
+        <div id="car"></div>
+        <div className="lines-left line-1"></div>
+        <div className="lines-right line-2"></div>
+        <div className="lines-left line-3"></div>
+        <div className="lines-right line-4"></div>
       </div>
     )
   }

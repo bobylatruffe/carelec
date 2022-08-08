@@ -1,17 +1,15 @@
 #ccm-contents {
+  position: relative;
   width: 1366px;
   margin: auto;
-
-  border: solid 1px red;
 }
 
 .ccm-content-n:first-child {
   width: 400px;
   margin: auto;
+  margin-top: 40px;
 
   text-align: center;
-
-  border: solid 1px blue;
 }
 
 .ccm-content-n:first-child p {
@@ -24,8 +22,6 @@
   margin: auto;
   margin-top: 200px;
   margin-bottom: 200px;
-
-  border: solid 1px green;
 }
 
 .ccm-content-n p {
@@ -50,4 +46,65 @@
 
 .ccm-right h3 {
   text-align: left;
+}
+
+#ccm-contents #car {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 230px;
+
+  width: 70px;
+  height: 70px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../img/car.png");
+}
+
+#ccm-contents #line-vertical {
+  display: block;
+  position: absolute;
+  top: 300px;
+  width: 3px;
+  height: 1300px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  background-color: black;
+}
+
+#ccm-contents .lines-left {
+  position: absolute;
+  left: 39%;
+  width: 150px;
+  height: 3px;
+
+  background-color: black;
+}
+
+#ccm-contents .lines-right {
+  position: absolute;
+  left: 50%;
+  width: 150px;
+  height: 3px;
+
+  background-color: black;
+}
+
+#ccm-contents .line-1 {
+  top: 380px;
+}
+
+#ccm-contents .line-2 {
+  top: 700px;
+}
+
+#ccm-contents .line-3 {
+  top: 1050px;
+}
+
+#ccm-contents .line-4 {
+  top: 1380px;
 }
