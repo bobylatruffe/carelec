@@ -7,7 +7,7 @@ import GetImmat from '../GetImmat/GetImmat';
 class Estimer extends React.Component {
   render() {
     return (
-      <GetImmat />
+      <GetImmat class="GetImmatEstimer" />
     )
   }
 }
