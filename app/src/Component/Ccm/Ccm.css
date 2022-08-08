@@ -15,15 +15,39 @@
 }
 
 .ccm-content-n:first-child p {
+  text-align: center;
   font-size: 18px;
 }
 
 .ccm-content-n {
-  width: 400px;
+  width: 380px;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
 
   border: solid 1px green;
 }
 
 .ccm-content-n p {
   font-size: 16px;
+  text-align: justify;
+}
+
+.ccm-left {
+  position: relative;
+  text-align-last: right;
+  left: -400px;
+}
+
+.ccm-left h3 {
+  text-align: right;
+}
+
+.ccm-right {
+  position: relative;
+  left: 400px;
+}
+
+.ccm-right h3 {
+  text-align: left;
 }
