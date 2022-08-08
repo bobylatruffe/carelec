@@ -24,7 +24,6 @@ class GetImmat extends React.Component {
     return (
       <div className='GetImmatContainer'>
         <input
-          style={{marginLeft: "20px", marginTop: 20}}
           className="GetImmat"
           type="text"
           placeholder="CL-644-CZ"

@@ -6,6 +6,7 @@ import Menu from "./Component/Menu/menu"
 import Accueil from "./Component/Accueil/Accueil";
 import NotreGarage from "./Component/NotreGarage/NotreGarage";
 import Ccm from "./Component/Ccm/Ccm";
+import Estimer from "./Component/Estimer/Estimer";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         } />
         <Route path="/ccm" element={
           <Ccm />
+        } />
+        <Route path="/estimer" element={
+          <Estimer />
         } />
       </Routes>
     </Fragment>
