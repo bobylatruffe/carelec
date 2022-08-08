@@ -2,12 +2,12 @@ import React from 'react';
 
 import "./Estimer.css";
 
-import GetImmat from '../GetImmat/GetImmat';
+import GetImmatArrow from '../GetImmatArrow/GetImmatArrow';
 
 class Estimer extends React.Component {
   render() {
     return (
-      <GetImmat class="GetImmatEstimer" />
+      <GetImmatArrow  />
     )
   }
 }
