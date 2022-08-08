@@ -20,7 +20,7 @@ class Introduction extends React.Component {
           </p>
           <img id="accueilArrow" src={accueilArrow}></img>
         </div>
-        <GetImmat />
+        <GetImmat class="GetImmatContainer" />
         <img id="accueilRight" src={accueilRight}></img>
       </div>
     )

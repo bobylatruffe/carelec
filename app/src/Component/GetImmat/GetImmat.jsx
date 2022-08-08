@@ -22,7 +22,7 @@ class GetImmat extends React.Component {
 
   render() {
     return (
-      <div className='GetImmatContainer'>
+      <div className={this.props.class}>
         <input
           className="GetImmat"
           type="text"
