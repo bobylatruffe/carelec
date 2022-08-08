@@ -1,0 +1,29 @@
+#ccm-contents {
+  width: 1366px;
+  margin: auto;
+
+  border: solid 1px red;
+}
+
+.ccm-content-n:first-child {
+  width: 400px;
+  margin: auto;
+
+  text-align: center;
+
+  border: solid 1px blue;
+}
+
+.ccm-content-n:first-child p {
+  font-size: 18px;
+}
+
+.ccm-content-n {
+  width: 400px;
+
+  border: solid 1px green;
+}
+
+.ccm-content-n p {
+  font-size: 16px;
+}

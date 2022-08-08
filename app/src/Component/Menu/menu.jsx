@@ -12,7 +12,7 @@ class Menu extends React.Component {
               <li><a href='/' className='logo'><span className='red'>car</span>elec</a></li>
               <li><a href='/'>Accueil</a></li>
               <li><a href='/notre-garage'>Notre garage</a></li>
-              <li><a href='#'>Comment ça marche</a></li>
+              <li><a href='/ccm'>Comment ça marche</a></li>
               <li><a href='#'>Faire un devis</a></li>
               <li><a href='#'>Aides</a></li>
               <li><a href='#'>Contact</a></li>
