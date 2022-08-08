@@ -19,7 +19,7 @@
 
 .notre-garage-container .content-n .txt-left-container .txt-left {
   width: 500px;
-  text-align: right;
+  text-align: justify;
 }
 
 .notre-garage-container .content-n .txt-right-container {
@@ -30,5 +30,5 @@
 
 .notre-garage-container .content-n .txt-right-container .txt-right {
   width: 500px;
-  text-align: left;
+  text-align: justify;
 }
