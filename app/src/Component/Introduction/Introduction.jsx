@@ -14,9 +14,9 @@ class Introduction extends React.Component {
         <img id="accueilLeft" src={accueilLeft}></img>
         <div id='arrowTextContainer'>
           <p id='handwrite'>
-            Avant de prendre rdv, utilisez notre outils<br/>
-            pour estimer le coût de votre<br/>
-            entretien ou réparation
+            Avant de prendre rdv, saisissez votre immatriculation<br/>
+            afin d'estimer les coûts pour l'entretien<br/>
+            ou la réparation de votre véhicule
           </p>
           <img id="accueilArrow" src={accueilArrow}></img>
         </div>

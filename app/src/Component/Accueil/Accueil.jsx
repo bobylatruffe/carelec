@@ -21,24 +21,24 @@ class Accueil extends React.Component {
         <AccrocheN
           class="accrocheN-right"
           img={accrocheCanape}
-          titre={["Entretenir ou faire réparer sa voiture, ", <span className="red">depuis son canapé !</span>]}
-          contenu="Plus besoin de se déplacer, que vous soyez chez vous ou au bureau, on récupère votre voiture, et on vous laisse une de nos merveilleuse voiture de courtoisie..."
+          titre={[<span className="red">Car</span>, "Elec, ou comment faire entretenir et réparer votre voiture... ", <span className="red"><br />depuis votre canapé !</span>]}
+          contenu="Plus besoin de vous déplacer. Vous êtes chez vous ou au bureau ? Nous prenons en charge votre voiture à partir d'un point de RDV de votre choix et nous vous laissons une de nos merveilleuses voitures de courtoisie."
           bg={accrocheCanapeBg}
           arrow={arrowRight}
         />
         <AccrocheN
           class="accrocheN-left"
           img={accrocheSuivi}
-          titre={["Plus aucune surprise", <span className="red"><br />suivez en directe  ce qu’il se passe !</span>]}
-          contenu="Suivez à tout moment l’avancement de ce qu’il se passe sur votre véhicule, en jettant un coup d’oeil sur ce que le mécanicien est entrain de réaliser sur votre voiture depuis sa caméra... un peu comme si vous etiez avec lui."
+          titre={["Plus de surprise, ", <span className="red"><br />suivez en direct ce qu’il se passe !</span>]}
+          contenu="Suivez à tout moment l’avancement des travaux sur votre véhicule. En effet, vous avez la possibilité de voir ce que notre mécanicien fait sur votre voiture depuis sa caméra... un peu comme si vous étiez avec lui."
           bg={accrocheSuiviBg}
           arrow={arrowLeft}
         />
         <AccrocheN
           class="accrocheN-right"
           img={accrocheDevis}
-          titre={["Voyez par vous-même qu’un devis, ", <span className="red">peut-être tellement clair ...</span>]}
-          contenu="Avant tout engagement, vous pourrez éditer un devis afin de contrôler que nous allons effectivement réaliser ce que vous souhaitez ... et pas une chose en plus !"
+          titre={["Etablissement systématique d'un devis ", <span className="red">clair et transparent.</span>]}
+          contenu="Avant tout engagement, vous pouvez éditer gratuitement un devis afin de choisir les travaux que vous souhaitez effectuer et ainsi maîtriser vos dépenses... sans mauvaise surprise."
           bg={null}
         />
 

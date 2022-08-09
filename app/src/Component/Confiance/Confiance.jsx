@@ -15,15 +15,15 @@ class Confiance extends React.Component {
     current: 0, // celui qui est actuellement affiché
     max: 5, // le nb max de temoignage -> temoignages.length
     temoignages: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "Super garage avec mécanicien expérimenté qui donne de bons conseils. J'y vais depuis quelques années pour les réparations de mes voitures. La qualité du service est top avec des prix corrects. L'accueil est agréable et les personnes serviables. Je recommande+++",
       
-      "Très bon service, j'en suis très satisfait",
+      "Super travail sur ma carrosserie. Reprise de toute la portière, retroviseur et bas de caisse. Elle était bien amochée et là elle est comme neuve, pour un prix tout à fait correct (bien moins cher qu'ailleurs) et très rapide. Merci!",
 
-      "Face à cette plainte pour le moins étonnante, Activision n'a pas tardé à signaler que plusieurs des affirmations concernant la ressemblance des personnages étaient fausses.",
+      "Très accueillant et très professionnelle, bonne explication sur les travaux effectués ainsi que la preuve des pièces changées. Je recommande fortement.",
 
-      "Merci !",
+      "Prise en charge au top. Personnel aimable et professionnel. Agréablement surprise avec ma voiture rendue toute propre. Je recommande vivement !",
 
-      "Une action en justice concernant Call of Duty Infinite Warfare a récemment été rejetée par un juge après qu'il a été établi qu'un avocat chargé de l'affaire n'avait pas réellement joué au jeu."
+      "Très contente de l'accueil et des réparations faites ici. J'avais fait ma visite annuelle ailleurs, chez mon garagiste habituel qui n'avait pas vu que mes freins étaient usés alors que je commençais a siffler. Résultat je roule encore 5 mois et viens ici les montrer. Changement des disques et plaquettes pour un montant tout a fait raisonnable :-)"
     ]
   }
 

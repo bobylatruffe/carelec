@@ -15,7 +15,7 @@ class NotreGarage extends React.Component {
           <div className='txt-left-container'>
             <div className='txt-left'>
               <h1>Une passion, <span className="red">un métier.</span></h1>
-              <p>Le garage carelec, c’est des d’années d’expérience en mécanique automobile au service de l’entretien de votre véhicule. Depuis, ce sont des centaines de véhicules entretenus par nos soins. L’ensemble de nos réparations sont réalisées sur place, dans notre atelier à Strasbourg.</p>
+              <p>Le garage <span className="red">Car</span>Elec s'est construit au fil des années une longue expérience dans le domaine de la mécanique automobile au service de l’entretien de votre véhicule. Depuis, ce sont des centaines de véhicules qui sont entretenus par nos soins.</p>
             </div>
           </div>
           <img src={notreGarage1} className='img-right' />
@@ -25,8 +25,8 @@ class NotreGarage extends React.Component {
           <img src={notreGarage2} className='img-left' />
           <div className='txt-right-container'>
             <div className='txt-right'>
-              <h1>L'atelier, <span className="red">où tout se passe.</span></h1>
-              <p>Le garage carelec, c’est des d’années d’expérience en mécanique automobile au service de l’entretien de votre véhicule. Depuis, ce sont des centaines de véhicules entretenus par nos soins. L’ensemble de nos réparations sont réalisées sur place, dans notre atelier à Strasbourg.</p>
+              <h1>L'atelier <span className="red">où tout se passe.</span></h1>
+              <p>L’ensemble de nos réparations sont réalisées sur place, dans notre atelier à Strasbourg. C'est ici que nous prolongeons la vie de votre véhicule et vous garantissons de reprendre la route en toute sécurité grâce à nos mécaniciens expérimentés.</p>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ class NotreGarage extends React.Component {
           <div className='txt-left-container'>
             <div className='txt-left'>
               <h1>L'Alsace, <span className="red">Strasbourg.</span></h1>
-              <p>Afin de garantir au mieux un service de proximité, l’intégralité de l’entretien et de la maintenance est réalisé au sein notre atelier mécanique à Strasbourg. Nous disposons d’une équipe de garagistes au service de la maintenance de votre véhicule. Nous réaliserons au mieux l’entretien de vos véhicules. Mais aussi, l’ensemble des réparations : tâches d’entretien courant, vidange, freinage, pneumatique, entretien des filtres, ou encore la carrosserie et la peinture avec notre service dédié.</p>
+              <p>Afin de garantir au mieux un service de qualité et de proximité, aucune sous traitance n'est réalisée. L’intégralité des travaux effectués sur votre véhicule est réalisée au sein notre atelier mécanique à Strasbourg. Notre équipe est à votre service et à votre écoute pour tout conseil ou demande de renseignement. La qualité est notre priorité dans les nombreux services que nous proposons : tâches d’entretien courant, vidange, freinage, pneumatique, entretien des filtres, ou encore carrosserie et peinture.</p>
             </div>
           </div>
           <img src={notreGarage3} className='img-right' />
