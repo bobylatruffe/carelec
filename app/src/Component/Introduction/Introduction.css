@@ -32,7 +32,9 @@
   left: 640px;
 }
 
-.Introduction #handwrite {
+#handwrite {
+  width: 270px;
+  
   font-family: 'Caveat', cursive;
   font-size: 18px;
 
