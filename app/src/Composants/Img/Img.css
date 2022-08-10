@@ -1,0 +1,7 @@
+.ImgDefault {
+  display: inline-block;
+}
+
+.ImgDefault img {
+  width: 550px;
+}

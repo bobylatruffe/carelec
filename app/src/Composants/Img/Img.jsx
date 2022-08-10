@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './TriangleRectangleGauche.css'
+import './Img.css'
 
-class TriangleRectangleGauche extends React.Component {
+class Img extends React.Component {
   render() {
     return (
       <div className={
-        "triangleRectangleGaucheDefault " +
+        "ImgDefault " +
         (this.props.classPerso ? this.props.classPerso : "")
       }>
         <img src={this.props.img} alt={this.props.alt}/>
@@ -15,4 +15,4 @@ class TriangleRectangleGauche extends React.Component {
   }
 }
 
-export default TriangleRectangleGauche;
+export default Img;
