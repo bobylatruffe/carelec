@@ -11,7 +11,7 @@ class InputField extends React.Component {
           (this.props.classPerso ? this.props.classPerso : "")
         }
         type='text'
-        placeHolder={this.props.placeHolder ? this.props.placeHolder : ""}
+        placeholder={this.props.placeHolder ? this.props.placeHolder : ""}
       />
     )
   }
