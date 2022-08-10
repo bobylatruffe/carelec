@@ -4,6 +4,12 @@ import "./GetImmat.css";
 class GetImmat extends React.Component {
   state = {
     inputValue: '',
+    infosVehicule: {
+      identifier: false,
+      infos: {
+
+      }
+    }
   }
 
   inputChange = (e) => {
@@ -11,6 +17,8 @@ class GetImmat extends React.Component {
       inputValue: e.target.value.toLowerCase(),
     })
   }
+
+
 
   submitGetImmat = () => {
     // rediriger vers la page pour checker plaque d'immat
@@ -21,17 +29,26 @@ class GetImmat extends React.Component {
   }
 
   render() {
-    return (
-      <div className={this.props.class}>
-        <input
-          className="GetImmat"
-          type="text"
-          placeholder="CL-644-CZ"
-          onChange={this.inputChange}>
-        </input>
-        <button className='GetImmatButton' onClick={this.submitGetImmat}>OK</button>
-      </div>
-    )
+    // si aucun véhicule n'a été identifer avec sa plaque, ou la 1er fois qu'on affiche ce composant 
+    if (!this.state.infosVehicule.identifier) {
+      return (
+        <div className={this.props.class}>
+          <input
+            className="GetImmat"
+            type="text"
+            placeholder="CL-644-CZ"
+            onChange={this.inputChange}>
+          </input>
+          <button className='GetImmatButton' onClick={this.submitGetImmat}>OK</button>
+        </div>
+      )
+    }
+    // sinon on affiche les informations du véhicule  
+    else {
+      return (
+        <h1></h1>
+      )
+    }
   }
 }
 
