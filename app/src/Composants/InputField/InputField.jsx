@@ -1,0 +1,20 @@
+import React from 'react';
+
+import './InputField.css'
+
+class InputField extends React.Component {
+  render() {
+    return (
+      <input
+        className={
+          "InputFieldDefault " +
+          (this.props.classPerso ? this.props.classPerso : "")
+        }
+        type='text'
+        placeHolder={this.props.placeHolder ? this.props.placeHolder : ""}
+      />
+    )
+  }
+}
+
+export default InputField;

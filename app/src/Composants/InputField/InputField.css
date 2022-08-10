@@ -1,0 +1,10 @@
+.InputFieldDefault {
+  display: block;
+  background-color: black;
+  padding: 10px;
+
+  font-weight: 900;
+  color: white;
+
+  text-align: center;
+}
