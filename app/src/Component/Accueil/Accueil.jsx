@@ -21,7 +21,7 @@ class Accueil extends React.Component {
         <AccrocheN
           class="accrocheN-right"
           img={accrocheCanape}
-          titre={[<span className="red">Car</span>, "Elec, ou comment faire entretenir et réparer votre voiture... ", <span className="red"><br />depuis votre canapé !</span>]}
+          titre={["Comment faire entretenir et réparer votre voiture, ", <span className="red">depuis votre canapé ...</span>]}
           contenu="Plus besoin de vous déplacer. Vous êtes chez vous ou au bureau ? Nous prenons en charge votre voiture à partir d'un point de RDV de votre choix et nous vous laissons une de nos merveilleuses voitures de courtoisie."
           bg={accrocheCanapeBg}
           arrow={arrowRight}

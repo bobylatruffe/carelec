@@ -15,7 +15,7 @@ class NotreGarage extends React.Component {
           <div className='txt-left-container'>
             <div className='txt-left'>
               <h1>Une passion, <span className="red">un métier.</span></h1>
-              <p>Le garage <span className="red">Car</span>Elec s'est construit au fil des années une longue expérience dans le domaine de la mécanique automobile au service de l’entretien de votre véhicule. Depuis, ce sont des centaines de véhicules qui sont entretenus par nos soins.</p>
+              <p>Le garage CarElec s'est construit au fil des années une longue expérience dans le domaine de la mécanique automobile au service de l’entretien de votre véhicule. Depuis, ce sont des centaines de véhicules qui sont entretenus par nos soins.</p>
             </div>
           </div>
           <img src={notreGarage1} className='img-right' />
