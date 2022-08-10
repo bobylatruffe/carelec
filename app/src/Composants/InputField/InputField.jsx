@@ -12,6 +12,7 @@ class InputField extends React.Component {
         }
         type='text'
         placeholder={this.props.placeHolder ? this.props.placeHolder : ""}
+        onChange={this.props.change}
       />
     )
   }
