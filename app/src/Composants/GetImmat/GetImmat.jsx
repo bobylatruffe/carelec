@@ -13,7 +13,7 @@ class GetImmat extends React.Component {
   }
 
   handlerChange = (e) => {
-    this.setState({inputValue: e.target.value.toLowerCase()})
+    this.setState({ inputValue: e.target.value.toLowerCase() })
   }
 
   handlerClick = () => {
@@ -27,9 +27,10 @@ class GetImmat extends React.Component {
         (this.props.classPerso ? this.props.classPerso : "")
       }>
         <HandwriteIndication img={arrowDown} content="Avant de prendre rdv, utilisez notre outils pour estimer le coût de votre entretien ..." />
+        <h1>Estimez le coût de votre entretien</h1>
         <div className='InputField-MyButton-Container'>
           <InputField placeHolder="CL-655-ZS" change={this.handlerChange} />
-          <MyButton content="OK" click={this.handlerClick}/>
+          <MyButton content="OK" click={this.handlerClick} />
         </div>
       </div>
     )
