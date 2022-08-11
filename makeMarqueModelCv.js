@@ -1,6 +1,7 @@
 /**
  * Nom ...................... : makeMarqueModel.js
  * Rôle ..................... : 
+ * 
 Le but de ce "module" est de réussir à transformer une chaîne de caractère qui peut prendre plusieurs forme, en un objet standarisé pour notre projet.
 Ce standard est le suivant : 
 {
@@ -32,7 +33,7 @@ Des exemples des résultats que l'on souhaite standarsié sont disponnible dans 
  * Autheur .................. : Bozlak Fatih 1503001522G
  * Licence .................. : IED L2 Informatique
  * Année .................... : 2021/2022
- * Usage .................... : node makeMarqueModel.js "string reçu par une API"
+ * Usage .................... : node makeMarqueModelCv.js "string reçu par une API"
  **/
 
 
@@ -41,7 +42,7 @@ Des exemples des résultats que l'on souhaite standarsié sont disponnible dans 
 
 let cl = console.log;
 
-function makeMarqueModel(chaine) {
+function makeMarqueModelCv(chaine) {
   let inputData = chaine.toLowerCase();
 
   let marqueModelCv = {};
@@ -143,34 +144,35 @@ function makeMarqueModel(chaine) {
   tokens = romainToDecimal(tokens);
   marqueModelCv.model = tokens.join(" ");
 
-  console.log(JSON.stringify(marqueModelCv));
+  return JSON.stringify(marqueModelCv);
 }
 
-if (process.argv[2] == "" || process.argv[2] == undefined) {
-  console.log("Usage: node makeMarqueModelCv.js nom_fichier.data");
-  return;
-}
+// if (process.argv[2] == "" || process.argv[2] == undefined) {
+//   console.log("Usage: \n\tnode makeMarqueModelCv.js nom_fichier.data\n");
+//   return;
+// }
 
-if (process.argv[2] == "TEST") {
-  if(process.argv[3] == undefined) {
-    console.log("Usage: node makeMarqueModelCv.js TEST nom_fichier.data");
-    return
-  }
+// if (process.argv[2] == "TEST") {
+//   if(process.argv[3] == undefined) {
+//     console.log("Usage: \n\tnode makeMarqueModelCv.js TEST nom_fichier.data\n");
+//     return
+//   }
 
-  let readline = require('readline');
-  let fs = require('fs');
+//   let readline = require('readline');
+//   let fs = require('fs');
 
-  let myInterface = readline.createInterface({
-    input: fs.createReadStream(process.argv[3])
-  });
+//   let myInterface = readline.createInterface({
+//     input: fs.createReadStream(process.argv[3])
+//   });
 
-  myInterface.on('line', function (line) {
-    console.log(line);
-    makeMarqueModel(line);
-  });
+//   myInterface.on('line', function (line) {
+//     // console.log(line);
+//     console.log(makeMarqueModel(line))
+//   });
 
-  return
-}
+//   return
+// }
 
-return makeMarqueModel(process.argv[2]);
+// return makeMarqueModel(process.argv[2]);
 
+module.exports = makeMarqueModelCv;
