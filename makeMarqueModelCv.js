@@ -147,15 +147,21 @@ function makeMarqueModel(chaine) {
 }
 
 if (process.argv[2] == "" || process.argv[2] == undefined) {
+  console.log("Usage: node makeMarqueModelCv.js nom_fichier.data");
   return;
 }
 
 if (process.argv[2] == "TEST") {
+  if(process.argv[3] == undefined) {
+    console.log("Usage: node makeMarqueModelCv.js TEST nom_fichier.data");
+    return
+  }
+
   let readline = require('readline');
   let fs = require('fs');
 
   let myInterface = readline.createInterface({
-    input: fs.createReadStream('exemples_requetes.data')
+    input: fs.createReadStream(process.argv[3])
   });
 
   myInterface.on('line', function (line) {
@@ -163,7 +169,7 @@ if (process.argv[2] == "TEST") {
     makeMarqueModel(line);
   });
 
-  return;
+  return
 }
 
 return makeMarqueModel(process.argv[2]);
