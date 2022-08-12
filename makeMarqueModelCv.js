@@ -44,6 +44,7 @@ let cl = console.log;
 
 function makeMarqueModelCv(chaine) {
   let inputData = chaine.toLowerCase();
+  inputData = inputData.replaceAll('é', 'e');
 
   let marqueModelCv = {};
   let tokens = inputData.split(" ");
@@ -79,7 +80,7 @@ function makeMarqueModelCv(chaine) {
         tokens.splice(0, 2);
         break;
       case "mini":
-        marqueModelCv.marque = "mini mini";
+        marqueModelCv.marque = "mini";
         tokens.splice(0, 2);
         break;
       default:
