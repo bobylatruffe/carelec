@@ -13,7 +13,9 @@ fetch(apiPlaque + process.argv[2])
     // console.log(res);
     let libelle = res.vehicule[0].libelle
     console.log(libelle);
+
     let standardise = makeMarqueModelCv(libelle);
     console.log(standardise);
+    
     console.log(searchModelInFileFs(standardise));
   })
